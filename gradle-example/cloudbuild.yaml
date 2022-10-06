@@ -33,7 +33,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'SERVICE-NAME'
+      - 'erp'
       - '--image'
       - 'gcr.io/$PROJECT_ID/erp:$COMMIT_SHA'
       - '--region'
