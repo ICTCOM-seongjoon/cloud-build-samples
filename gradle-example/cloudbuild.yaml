@@ -16,6 +16,9 @@
 steps:
   - name: gradle:7.5.0-jdk8
     entrypoint: gradle
+    args: ["init"]
+  - name: gradle:7.5.0-jdk8
+    entrypoint: gradle
     args: ["test"]
   - name: gradle:7.5.0-jdk8
     entrypoint: gradle
